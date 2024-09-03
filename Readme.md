@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Nikita Fenyak](https://up.htmlacademy.ru/htmlcss-individual/2/user/88702).
-* Наставник: `Неизвестно`.
+* Студент: [Nikita Fenyak](https://htmlacademy.ru/profile/id88702).
+* Наставник: [Дмитрий Беллавин](https://htmlacademy.ru/profile/bellavin).
 
 
 ## О проекте
