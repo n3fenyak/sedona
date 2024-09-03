@@ -6,6 +6,8 @@
 
 ## О проекте
 
+* init project: [Sedona] (https://n3fenyak.github.io/sedona/)
+
 ### TBC
 
 
