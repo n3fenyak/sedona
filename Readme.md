@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss-individual/2/user/88702).
+* Студент: [Nikita Fenyak](https://up.htmlacademy.ru/htmlcss-individual/2/user/88702).
 * Наставник: `Неизвестно`.
 
 ---
@@ -10,7 +10,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 ---
 
-### Памятка
+### О проекте
 
 #### 1. Зарегистрируйтесь на Гитхабе
 
