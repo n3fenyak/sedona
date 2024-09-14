@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <h1 class="visually-hidden">Седона - небольшой городок в Аризоне.</h1>
       <a href="#" class="navigation-logo">
         <img src="#" alt="Логотип Седона">
@@ -32,8 +32,8 @@
         </ul>
       </nav>
     </header>
-    <main class="main-index">
-      <section class="hero">
+    <main class="main-index" data-test="main">
+      <section class="hero" data-test="hero">
         <h2 class="visually-hidden">Добро пожаловать в Седону</h2>
         <img src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!" class="welcome-text">
         <div class="hero-content">
@@ -42,7 +42,7 @@
           <p class="hero-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </div>
       </section>
-      <section class="advantages">
+      <section class="advantages" data-test="advantages">
         <ul class="advantages-list">
           <li class="advantages-item advantages-item-illustrated">
             <h3 class="advantages-title">Настоящий городок</h3>
@@ -86,13 +86,14 @@
           </li>
         </ul>
       </section>
-      <section class="search-hotel">
+      <section class="search-hotel" data-test="search">
         <h2 class="search-hotel-title">Заинтересовались?</h2>
-        <p class="search-hotel-title">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц
+        <p class="search-hotel-title">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+          гостиниц
           в Седоне</p>
         <button class="button">Поиск гостиниц в Седоне</button>
       </section>
-      <section class="subscribe">
+      <section class="subscribe" data-test="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-descr">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -102,9 +103,8 @@
           <button class="button button-submit" type="submit">Подписаться</button>
         </form>
       </section>
-
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a href="#" class="footer-social-link">
