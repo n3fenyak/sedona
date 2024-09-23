@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/ptsans-400.woff2") format(woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/ptsans-700.woff2") format(woff2);
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -11,8 +27,13 @@ img {
 }
 
 body {
+  background-color: #F2F2F2;
   margin: 0;
   padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
 }
 
 .visually-hidden {
@@ -26,4 +47,22 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+
+.hero {
+  background-image: url("/images/start-screen-bg.jpg");
+  position: relative;
+}
+
+.hero::after {
+  background-image: url("/images/start-screen-divider.svg");
+  position: absolute;
 }
