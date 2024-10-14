@@ -24,6 +24,14 @@ img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  display: block;
+}
+
+
+a {
+  color: #000000;
+  text-decoration: none;
+
 }
 
 body {
@@ -31,6 +39,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   color: #000000;
@@ -58,11 +67,111 @@ body {
 
 
 .hero {
-  background-image: url("/images/start-screen-bg.jpg");
-  position: relative;
+  background: url("/images/start-screen-bg.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 51px 371px 81px 371px;
 }
 
-.hero::after {
+/* .hero::after {
   background-image: url("/images/start-screen-divider.svg");
   position: absolute;
+} */
+
+.advantages {
+  padding-top: 70px;
+}
+
+.title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subtitle {
+  margin-bottom: 90px;
+  color: #333333;
+  text-align: center;
+}
+
+.page-header {
+  display: flex;
+  margin: 0 auto;
+  width: 1060px;
+  font-weight: 700;
+
+}
+
+.navigation-logo {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 28px;
+}
+
+.navigation-list {
+  max-width: 400px;
+}
+
+.navigation-user {
+  margin-left: auto;
+}
+
+.button-link {
+  display: block;
+  background-color: #756157;
+  text-transform: uppercase;
+  color: white;
+}
+
+.button-search {
+  margin: 0 auto;
+}
+
+.advantages-item,
+.services-item {
+  background-color: #82B3D3;
+}
+
+.advantages-list-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.advantages-list-descr {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+}
+
+.light {
+  color: white;
+}
+
+.advantages-list-title,
+.services-list-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.advantages-list-descr,
+.services-list-descr {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
 }
